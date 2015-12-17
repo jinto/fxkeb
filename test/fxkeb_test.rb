@@ -6,7 +6,8 @@ class FxkebTest < Minitest::Test
   end
 
   def test_it_does_something_useful
-    assert Fxkeb.to_usd(1000) > 0.4
+    assert Fxkeb.fx_krw2usd(1000) > 0.4
+    assert Fxkeb.fx_krw2usd(1000) < 2.0
     #assert false
   end
 end
