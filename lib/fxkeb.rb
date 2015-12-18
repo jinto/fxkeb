@@ -2,7 +2,7 @@ require "fxkeb/version"
 require "nokogiri"
 
 module Fxkeb
-  FIXED_RATE=1000
+  FIXED_RATE=1200
   FXURL="http://community.fxkeb.com/fxportal/jsp/RS/DEPLOY_EXRATE/2533_0.html"
 
   def self.fx_krw2usd(krw)

@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["jay park"]
   spec.email         = ["jaypark@gmail.com"]
 
-  spec.summary       = 'currency conversion from krw to usd'
+  spec.summary       = 'Currency conversion from krw to usd'
   spec.description   = 'currency conversion from krw to usd'
   spec.homepage      = "http://github.com/jinto/fxkeb"
   spec.license       = "MIT"
